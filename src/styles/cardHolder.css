@@ -1,0 +1,43 @@
+
+#cardHolder > div:nth-child(1) {
+    grid-area: element1;
+  }
+  
+  #cardHolder > div:nth-child(2) {
+    grid-area: element2;
+  }
+  
+  #cardHolder > div:nth-child(3) {
+    grid-area: element3;
+  }
+
+@media (max-width: 767px){
+#cardHolder {
+    /* Mobile view */
+      display: flex;
+      flex-direction: column;
+    }
+}
+  
+    /* Tablet view */
+    @media (min-width: 768px) and (max-width: 1030px) {
+    #cardHolder{
+      display: grid;
+      grid-template-areas: 
+        ". element1 element1 ."
+        " element2 element2 element3 element3";
+    }
+    }
+  
+    /* PC view */
+    @media (min-width: 1030px) {
+    #cardHolder{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-areas: 
+        "element1 element2 element3";
+    }
+   
+  }
+  
+  

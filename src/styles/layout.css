@@ -1,0 +1,84 @@
+/* Main Utility classes */
+
+.grid{
+    display: grid;
+}
+
+.center{
+    place-items: center;
+    align-items: center;
+}
+
+
+
+/*Main Layer classes*/
+
+.layerGround{
+    max-width: 100vw;
+    min-height: 100vh;
+    padding: 2vh;
+
+
+    background-image: url("/pics/Pattern.png");
+    background-color: #cccccc;
+
+   
+
+}
+.layerBase{
+    width: 100%;
+    min-height: 100%;
+}
+
+
+
+/* Main Flow classes*/
+
+.multiVert{
+    grid-template-columns: 1fr;
+    grid-auto-flow: row;
+}
+
+.multiHor{
+    grid-auto-flow: column;
+    grid-template-rows: 1fr;
+}
+
+
+/*garbage =C */
+header{
+    text-align: center;
+    color: #FFFFFF;
+}
+header>h1{
+    font-family: "projectFont";
+}
+a:visited {
+    color: #5b4ade;
+    text-decoration-color: #5b4ade;
+}
+
+
+
+/* Mobile view */
+@media (max-width: 767px) {
+    /* styles for mobile devices */
+    .layerGround{
+        background-image: url("/pics/Pattern@2x.png");
+    }
+  }
+  
+  /* Tablet view */
+  @media (min-width: 768px) and (max-width: 1030px) {
+    /* styles for tablet devices */
+    .layerGround{
+        background-image: url("/pics/Pattern@2x.png");
+    }
+    
+  }
+  
+  /* PC view */
+  @media (min-width: 1030) {
+    /* styles for desktop devices */
+    
+  }
