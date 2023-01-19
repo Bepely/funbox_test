@@ -198,7 +198,7 @@ strong{
     color: #F2F2F2;
     font-size: 0.9em;
     text-align: center;
-    transform: translateY(15px);
+    transform: translateY(25px);
 }
 .disabledCardContainer>.actionComment{
     color: #FFFF66;
