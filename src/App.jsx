@@ -19,7 +19,7 @@ function App() {
       <div className="layerBase center" id='cardHolder'>
         <Card taste="foieGras" size={10} storage={storage.foieGras}/>
         <Card taste="fish" size={40} storage={storage.fish}/>
-        <Card taste="chicken" size={400} storage={storage.chicken}/>
+        <Card taste="chicken" size={100} storage={storage.chicken}/>
       </div>
       
     </div>

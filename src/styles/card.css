@@ -44,11 +44,11 @@ strong{
 /*Header part of a card adjustments */
 
 #scewElement{
-    -moz-transform: translate(21px, 0px) skew(-45deg, 0deg);
-    -webkit-transform: translate(21px, 0px) skew(-45deg, 0deg);
-    -o-transform: translate(21px, 0px) skew(-45deg, 0deg);
-    -ms-transform: translate(21px, 0px) skew(-45deg, 0deg);
-    transform: translate(21px, 0px) skew(-45deg, 0deg);
+    -moz-transform: translate(20px, 0px) skew(-45deg, 0deg);
+    -webkit-transform: translate(20px, 0px) skew(-45deg, 0deg);
+    -o-transform: translate(20px, 0px) skew(-45deg, 0deg);
+    -ms-transform: translate(20px, 0px) skew(-45deg, 0deg);
+    transform: translate(20px, 0px) skew(-45deg, 0deg);
 
     background-color: var(--background);
 
@@ -114,15 +114,15 @@ strong{
 
 /* Header left(scewed) container */
 .defaultCard>#cardHeaderContainer>#scewElement{
-    border-left: 5px solid var(--default);
+    border-left: 4px solid var(--default);
     border-top: 4px solid var(--default);
 }
 .disabledCard>#cardHeaderContainer>#scewElement{
-    border-left: 5px solid var(--disabled);
+    border-left: 4px solid var(--disabled);
     border-top: 4px solid var(--disabled);
 }
 .pickedCard>#cardHeaderContainer>#scewElement{
-    border-left: 5px solid var(--picked);
+    border-left: 4px solid var(--picked);
     border-top: 4px solid var(--picked);
 }
 
